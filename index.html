@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
+    <!-- <script>
         tailwind.config = {
             theme: {
                 colors: {
@@ -14,7 +14,7 @@
                 },
             },
         }
-    </script>
+    </script> -->
 </head>
 <body>
 
@@ -208,40 +208,34 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Process Section Start -->
-        <div class="row columns-2 m-16">
-            <div class="">
-                <div class="row bg-white shadow-lg rounded-lg columns-2 p-5">
-                    <div>
-                        <img src="assets/images/house.png" class="w-1/4" alt="House Icon">
-                    </div>
-                    <div>
-                        <h3>Find the Perfect Fit</h3>
-                        <p>Everybody is different, which is why we <br>offer styles for every body.</p>
-                    </div>
-                </div>
-                <div class="row bg-white shadow-lg rounded-lg columns-2">
-                    <div>
-                        <img src="assets/images/house.png" class="" alt="House Icon">
-                    </div>
-                    <div>
-                        <h3>Find the Perfect Fit</h3>
-                        <p>Everybody is different, which is why we <br>offer styles for every body.</p>
-                    </div>
-                </div>
-                <div class="row bg-white shadow-lg rounded-lg columns-2">
-                    <div>
-                        <img src="assets/images/house.png" class="" alt="House Icon">
-                    </div>
-                    <div>
-                        <h3>Find the Perfect Fit</h3>
-                        <p>Everybody is different, which is why we <br>offer styles for every body.</p>
-                    </div>
+        <div class="grid grid-cols-2 gap-5 my-16">
+            <div class="flex justify-around items-center bg-white shadow-lg px-8 py-6 gap-x-10 rounded-xl">
+                <img src="assets/images/house.png" class="w-20" alt="House Image">
+                <div>
+                    <h3 class="text-2xl font-bold pb-2">Find the Perfect Fit</h3>
+                    <p class="text-lg text-gray-600">Everybody is different, which is why we offer styles for every body.</p>
                 </div>
             </div>
-            <div class="">
-                <img src="assets/images/shopping.png" class="w-full" alt="Shopping Image">
+
+            <div class="row-span-3 flex justify-center items-center p-10">
+                <img src="assets/images/shopping.png" class="" alt="Shopping Image">
+            </div>
+
+            <div class="flex justify-around items-center bg-white shadow-lg px-8 py-6 gap-x-10 rounded-xl">
+                <img src="assets/images/box.png" class="w-20" alt="House Image">
+                <div>
+                    <h3 class="text-2xl font-bold pb-2">Free Exchanges</h3>
+                    <p class="text-lg text-gray-600">One of the many reasons you can shop with peace of mind.</p>
+                </div>
+            </div>
+            <div class="flex justify-around items-center bg-white shadow-lg px-8 py-6 gap-x-10 rounded-xl">
+                <img src="assets/images/question.png" class="w-20" alt="House Image">
+                <div>
+                    <h3 class="text-2xl font-bold pb-2">Contact Our Seller</h3>
+                    <p class="text-lg text-gray-600">They are here to help you. That's quite literally what we pay them for.</p>
+                </div>
             </div>
         </div>
     </div>
