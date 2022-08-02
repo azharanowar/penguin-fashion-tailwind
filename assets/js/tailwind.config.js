@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       colors: {
         'hero-bg': '#FFFBF0',
-        'primary-color': '#FABE4C',
-      },
-    },
+        'primary-color': '#FABE4C'
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }
